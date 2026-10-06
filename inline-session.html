@@ -108,8 +108,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       scene.addNode(solarSystem);
       scene.addNode(new SkyboxNode({url: 'media/textures/milky-way-4k.png'}));
 
-      console.log("wir sind in initXR");
-
       function initXR() {
         xrButton = new WebXRButton({
           onRequestSession: onRequestSession,
